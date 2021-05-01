@@ -1,10 +1,10 @@
 {
   "name": "onmyjs",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Let your config bring the JS, I'll bring the ON.",
-  "main": "dist/index.min.js",
+  "main": "dist/onmyjs.min.js",
   "files": [
-    "dist/index.min.js"
+    "dist/onmyjs.min.js"
   ],
   "repository": "git@github.com:zachbryant/onmyjs.git",
   "author": "Zach Bryant <zdb282@gmail.com>",
