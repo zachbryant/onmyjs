@@ -9,6 +9,15 @@
   "repository": "git@github.com:zachbryant/onmyjs.git",
   "author": "Zach Bryant <zdb282@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "json",
+    "config",
+    "export",
+    "write",
+    "load",
+    "js",
+    "convert"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint onmyjs.ts --fix",
