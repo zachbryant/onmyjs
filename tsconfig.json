@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "exclude": ["dist", "node_modules", "test"],
+  "include": ["onmyjs.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "downlevelIteration": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "importHelpers": false,
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["esnext", "dom"]
+  }
+}
