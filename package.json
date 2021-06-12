@@ -1,6 +1,6 @@
 {
   "name": "onmyjs",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Let your config bring the JS, I'll bring the ON.",
   "main": "dist/onmyjs.min.js",
   "files": [
