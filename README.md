@@ -11,11 +11,12 @@ turn your js config file into json
 ## Sample Usage
 
 ```javascript
-const onmyjs = require('onmyjs').default;
+const { onmyjs } = require('onmyjs');
 module.exports = {
   compilerOptions: {
     ...
   }
 }
-onmyjs(module.exports, undefined, true); // export to json
+onmyjs(module.exports, undefined, true); // export to samename.json
+onmyjs(module.exports, '../config/stuff.json', true); // export to relative path
 ```
