@@ -19,8 +19,9 @@
     "convert"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && yarn minify",
     "lint": "eslint onmyjs.ts --fix",
+    "test": "node test/test.js && diff test/generated.json test/expected.json",
     "minify": "terser --compress --comments false -o dist/onmyjs.min.js -- dist/onmyjs.js",
     "prepublishOnly": "npm-run-all -s build minify"
   },

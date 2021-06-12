@@ -1,4 +1,4 @@
-const onmyjs = require('../dist/onmyjs').default;
+const { onmyjs } = require('onmyjs');
 
 var config = {
 	compilerOptions: {
@@ -21,4 +21,4 @@ var config = {
 	},
 };
 
-onmyjs(config, 'hitest', true);
+onmyjs(config, './generated.json', true);
