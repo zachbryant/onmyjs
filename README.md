@@ -2,7 +2,7 @@
 
 turn your js config file into json
 
-**onmyjs(data: object, outputFilename?: string, pretty = true): void**
+**onmyjs(data: object, outputPath?: string, pretty = true): void**
 
 - data: the data to write
 - outputPath?: the relative file path/name to write to (`.json` ending if empty)
